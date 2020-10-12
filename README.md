@@ -1,38 +1,43 @@
 # ConsoleStyles
 
 Js functions to make console logging more beautiful.
+There are currently 4 banners , 4 special message,3 text styles.
+Every function name starts with c, short form of console.
+Therefore, to print out error message, now we dont need console.error(),
+instead use cError().
 
-## Setup
+# Setup
 
 Import the script to your website.
 
-## Usage
+# Usage
 
-Functions to use:
+## banners
 
-### banners
+### ```cBanner1("cBanner1")```<br>
+![ ](/img/banner1.png)<br>
+### ```cBanner2("cBanner2")```<br>
+![ ](./img/banner2.png)<br>
+### ```cBanner3("cBanner3")```<br>
+![](./img/banner3.png)<br>
+### ```cBanner4("cBanner4")```<br>
+![](./img/banner4.png)<br>
+## special messages
+### ```cError("this is an error!")```<br>
+![](./img/error.png)<br>
+### ```cWarn("this is a warning")```<br>
+![](./img/warn.png)<br>
+### ```cSuccess("this is Success Message")```<br>
+![](./img/success.png)<br>
+### ```cRemarks("this is Remarks")```<br>
+![](./img/remark.png)<br>
+## text styles
+### ```cBlackGreen("This is cBlackGreen() text style.")```<br>
+![](./img/blackgreen.png)<br>
+### ```cClassicGray("This is cClassicGray() text style.")```<br>
+![](./img/classicgray.png)<br>
+### ```cClassicBlack("This is cClassicBlack() text style.")```<br>
+![](./img/classicblack.png)<br>
 
-`cBanner1("cBanner1");`
-![](./img/banner1.png =100x)
-cBanner2("cBanner2");
-![](./img/banner2.png =100x)
-cBanner3("cBanner3");
-![](./img/banner3.png =100x)
-cBanner4("cBanner4");
-![](./img/banner4.png =100x)
-//special messages
-cError("this is an error!");
-![](./img/error.png =100x)
-cWarn("this is a warning");
-![](./img/warn.png =100x)
-cSuccess("this is Success Message");
-![](./img/success.png =100x)
-cRemarks("this is Remarks");
-![](./img/remark.png =100x)
-//text styles
-cBlackGreen("This is cBlackGreen() text style.");
-![](./img/blackgreen.png =100x)
-cClassicGray("This is cClassicGray() text style.");
-![](./img/classicgray.png =100x)
-cClassicBlack("This is cClassicBlack() text style.");
-![](./img/classicblack.png =100x)
+# Contribution
+If you like to contribute by adding amazing styling functions, feel free to do the same 😉
