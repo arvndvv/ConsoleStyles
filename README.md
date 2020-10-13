@@ -41,3 +41,10 @@ Import the script to your website.
 
 # Contribution
 If you like to contribute by adding amazing styling functions, feel free to do the same 😉
+[x] Make sure to use function name in format => cFunctionName().
+[x] Use relevant name.
+[x] store style in a variable inside function to make it look clean.
+[x] take a screenshot of your output (crop it to fit the size of only the output text, not entire screen).
+[x] Update ReadMe file with your function and its output, also add your name to contributers list.
+
+# Contributers
